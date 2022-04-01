@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="stylesheets/style.css">
+<title>animation</title>
+<!-- <script src="<https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min..>"></script> -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="javascripts/java-script.js" charset="utf-8"></script>
+<script src="https://yandex.st/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<h1> Карта книжных миров </h1>
+<h2> Масштаб 1:10 000 000 </h2>
+
+ <div class="Rose"> <img src="images/RoseofWind.svg"> </div>
+
+ <div class="Karparaval"> <img src="images/Group 407.svg"> <p>Кэр - Параваль</p> </div>
+
+ <div class="Velikoemore"> <img id="more" src="images/more.svg"></div>
+
+ <div class="group">
+   <div class="more"><p1>Великое море</p1></div>
+   <div class="ship">
+     <img id="ship" src="images/ship.svg"> </div>
+   <div class="ramandu" id="ramandu"> <p3>Остров Раманду</p3> <img id="ramandu" src="images/island ramandu.svg"> </div>
+   <div class="star"> <img src="images/blue star.svg"></div>
+   <div class="ministerstvo"> <p4>Министерство магии</p4> <img src="images/ministerstvo.svg" id="ministerstvo"> </div>
+</div>
+
+<div id="draggable"> <img src="images/yolka.svg"> </div>
+
+<div class="group1">
+<div class="mountains"> <p2> Эттинсмурские горы </p2> <img src="images/mountains.svg"> </div>
+
+<div class="fadeforest">
+   <img src="images/fadeforest.svg"></img>
+   <p2> Тенистый лес </p>
+   </div>
+<div class="Os-Alta"> <img id="OsAlta" src="images/OsAlta.svg"> <p4>Ос – Альта</p> </div>
+<div class="tree"> <img src="images/tree.svg"> </div>
+<div class="bush"> <img src="images/bush.svg"> </div>
+<div class="Pemberli"> <img src="images/Pemberli.svg"> <p4> Пемберли </p4> </div>
+<div class="Sherwood"> <img src="images/Sherwood.svg"> <p2> Шервудский лес </p2> </div>
+<div class="Westmountains"> <p2> Западные горы </p2><img src="images/Westmountains.svg">  </div>
+
+</div>
+
+
+
+<div class="group2">
+  <div class="Ketterdam"><img src="images/Ketterdam.svg"> <p4> Кеттердам </p4> </div>
+
+
+  <div class="Hogsmeade"><img src="images/Hogsmeade.svg"><p13> Хогсмид</p> </div>
+  <div class="Minor"><img src="images/Minor.svg"><p13> Малфой Минор </p> </div>
+  <div class="flashlight"><img src="images/flashlight.svg"></div>
+  <!-- <div class="forbiddenWoods"><img src="images/forbiddenWoods.svg"><p2> Запретный лес </p> -->
+
+    <a class="popup-open1" href="#"><div class="forbiddenWoods"><img src="images/forbiddenWoods.svg"><p2> Запретный лес </p>
+</a>
+
+    <div class="popup-fade1">
+    	<div class="popup1">
+    		<a class="popup-close1" href="#">Закрыть</a>
+    		<p>Всплывающие окна имеют широкий диапазон применений...</p>
+    	</div>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="watergardens"><img src="images/watergardens.svg"><p13> Водные сады </p> </div>
+  <div class="Maryino"><img src="images/Maryino.svg"><p13> Марьино </p> </div>
+  <div class="WarPeace"><img src="images/WarPeace.svg"><p13> Лысые Горы </p> </div>
+  <div class="sea">
+    <img src="images/sea.svg">
+    <div class="smoke"><p1>Дымящееся море</p></div>
+    <div class="kraken"><img src="images/kraken.svg"></div>
+  </div>
+  <div class="yellowbrick"> <img src="images/yellowbrick.svg"></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+<a class="darkostrov-open" href="#"><div class="dark"> <p2>Остров тьмы</p2> <img src="images/island of dark.svg"></div></a>
+
+<div class="darkostrov-fade">
+
+<div class="darkostrov">
+<div id="ostrovtima" class="ostrovtima">
+      <img src="images/location.svg">
+       <p6> Остров тьмы </p6>
+</div>
+
+<a class="darkostrov-close" href="#"><img src="images/close.svg"></a>
+
+<div class="text1">
+       <p5>Место, где обитает зло. Оно меняет обличье
+и делает худший кошмар явью, черпая силы из ваших страхов. Не поддавайтесь его тьме.
+Вавилонская свеча рассеет чары. Она озаряет путь даже в самые темные времена. Зажги её, чтобы выпутаться из мрака.</p5>
+</div>
+
+  <button name="button" id="button"> <p8> зажечь свечу </p8> </button>
+
+<div class="candle" id="candle">
+      <img id="candlebefore" src="images/candle.svg">
+</div>
+
+<div class="text2">
+        <p7>Ты выбрался из мрака, озарив остров ярким светом вавилонской свечи. Но помни: она не всегда сможет помочь. Чтобы победить темноту и зло в мире, нужно преодолеть их в себе.
+Кстати, с помощью вавилонской свечи можно путешествовать: в книге “Звездная пыль” люди могли переместиться в любое место, просто крепко зажав её
+в руке. </p>
+</div>
+
+  <button name="button" class="button2" href="#"> <p8> назад к карте </p8> </button2>
+
+</div>
+</div>
+
+
+
+
+
+<a class="popup-open" href="#"><div class="canyon"><img src="images/canyon.svg"></div></a>
+
+<div class="popup-fade">
+
+<div class="popup">
+<div id="shades" class="shades">
+      <img src="images/location.svg">
+      <p9> Каньон теней </p9>
+</div>
+<a class="popup-close" href="#"><img src="images/close.svg"></a>
+<div class="wings">
+<div class="bat"><img src="images/bat.png"></div>
+<div class="wingleft"><img src="images/wingleft.png"></div>
+<div class="wingright"><img src="images/wingright.png"></div>
+</div>
+
+
+<div class="text3">
+      <p10>Каньон теней много веков назад создал Темный Еретик. Это –  стена непроницаемой тьмы, поднимающаяся высоко в небеса и разделяющая страну на 2 части. Здесь обитают чудовища-волькры, несущие смерть любому чужаку. Лишь могущественный заклинатель солнца способен рассеять тьму каньона.</p>
+</div>
+
+<div class="sun" id="sun"><img src="images/sun.svg"></div>
+  <button name="button" id="button3"> <p11> заклинай солнце </p11> </button>
+
+<!-- <div class="sun2"> -->
+
+  <!-- <div class="sunleft"><img src="images/sunleft.svg"></div> -->
+<!-- </div> -->
+
+  <div class="text4">
+
+          <p12>Тебе удалось призвать мощь солнца и разогнать тени
+и чудовищ каньона. Но кто знает, не бывает света без тьмы...
+В книге “Тень <br> и Кость” Алина Старкова является заклинательницей солнца. Она единственная
+в своём роде, как и её оппонент Дарклинг – заклинатель теней. Что еще подходит друг другу лучше, если не свет и тьма? </p>
+  <div class="sunright"><img id="sunright" src="images/sunright.svg"></div>
+  <div class="sunleft"><img id="sunleft" src="images/sunleft.svg"></div>
+</div>
+
+<button name="button" class="button2" href="#"> <p8> назад к карте </p8> </button2>
+</div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+  </html>

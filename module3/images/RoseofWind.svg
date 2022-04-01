@@ -1,0 +1,21 @@
+<svg width="202" height="202" viewBox="0 0 202 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="101.054" cy="101.162" r="74.1144" fill="#3653D9" stroke="#CF4CE3" stroke-width="4"/>
+<circle cx="101.105" cy="101.111" r="48.2042" fill="#3653D9" stroke="#FFC25E" stroke-width="10"/>
+<circle cx="101.053" cy="101.162" r="37.071" fill="#CF4CE3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M101.081 87.6826C100.73 87.9415 100.251 87.9424 99.8984 87.6847L57.51 56.702C56.5863 56.0269 55.4362 57.1811 56.1147 58.1024L87.2503 100.379C87.5093 100.73 87.5101 101.209 87.2525 101.562L56.2698 143.95C55.5946 144.874 56.7489 146.024 57.6701 145.345L99.9463 114.21C100.298 113.951 100.777 113.95 101.129 114.208L143.518 145.19C144.441 145.865 145.591 144.711 144.913 143.79L113.777 101.514C113.518 101.162 113.518 100.683 113.775 100.331L144.758 57.9424C145.433 57.0187 144.279 55.8686 143.358 56.5471L101.081 87.6826Z" fill="#FF700D"/>
+<mask id="mask0_423_1895" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="66" width="202" height="70">
+<ellipse cx="101" cy="101" rx="34.7103" ry="101" transform="rotate(-90 101 101)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0_423_1895)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M86.5326 85.2913L-4.12988 101L86.5326 115.197L100.514 101L114.441 117.033L205.131 101L100.514 101L86.5326 85.2913Z" fill="#FF700D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M86.1007 117.033L-4.21094 101H100.514L86.1007 117.033ZM205.131 101L114.117 85.3994L100.514 101L205.131 101Z" fill="#FFC25E"/>
+</g>
+<mask id="mask1_423_1895" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="66" y="0" width="70" height="202">
+<ellipse cx="101" cy="101" rx="34.7103" ry="101" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask1_423_1895)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M84.7516 116.817L100.485 205.673L114.682 115.011L100.485 101.029L117.303 85.8851L100.485 -3.58748L100.485 101.029L84.7516 116.817Z" fill="#FF700D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M116.655 116.601L100.485 205.754V101.029L116.655 116.601ZM100.485 101.029L83.9962 85.7231L100.485 -3.58748L100.485 101.029Z" fill="#FFC25E"/>
+</g>
+<circle cx="100.514" cy="101.162" r="14.3592" fill="#CF4CE3"/>
+</svg>

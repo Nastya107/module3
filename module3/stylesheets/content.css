@@ -1,0 +1,694 @@
+@font-face {
+font-family: 'Alice Regular';
+src: url("../fonts/Alice-Regular.ttf") format('TrueType');
+}
+
+@font-face {
+font-family: 'NTR';
+src: url("../fonts/NTR-Regular.ttf") format('TrueType');
+}
+
+body
+{
+  background-color: #A2DD86;
+  margin: 0%;
+  padding: 0%;
+}
+.Karparaval
+{
+  width: 1113px;
+  height: 307px;
+  align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+.Rose
+{
+  position: absolute;
+  left: 80%;
+}
+
+p, h1, h2, p4
+{
+ font-family: "Alice Regular";
+ color: #384F2D;
+ text-align: center;
+}
+p2, p3
+{
+ font-family: "NTR";
+ color: #723206;
+ font-size: 25px;
+}
+
+h1, h2
+{
+  text-align: center;
+}
+p
+{
+  font-size: 25px;
+  margin: 0px;
+  margin-left: 110px;
+}
+h1
+{
+font-size: 40px;
+letter-spacing: 20px;
+margin-bottom: 0px;
+}
+
+h2
+{
+font-size: 30px;
+margin-top: 10px;
+}
+
+.Velikoemore
+{
+  z-index: 1;
+  margin-top: 70px;
+  position: relative;
+
+}
+.more
+{
+
+  position: absolute;
+  z-index: 9999;
+
+  margin-left: 100px;
+  margin-top: -850px;
+  color: #1238EC;
+  width: 400px;
+}
+
+
+p1
+{
+  font-style: italic;
+  font-size: 27px;
+  letter-spacing: 15px;
+  color: #1238EC;
+}
+.group
+{
+  position: absolute;
+  z-index: 10;
+}
+.ship
+{
+  z-index: 101;
+  position: absolute;
+  margin-top: -320%;
+  margin-left: 150%;
+  /* width: auto;
+  height: auto;  */
+}
+.ramandu
+{
+  position: absolute;
+  margin-top: -200%;
+  margin-left: 20%;
+}
+.Velikoemore
+{
+  z-index: -1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.dark
+{
+  position: absolute;
+  margin-top: -93%;
+  margin-left: 45%;
+  text-align: center;
+}
+
+.star
+{
+  position: relative;
+  margin-top: -320%;
+  margin-left: 30%;
+}
+.ramandu, .ministerstvo
+{
+  text-align: center;
+}
+
+.ministerstvo
+{
+  position: absolute;
+  margin-top: 60%;
+  margin-left: 330%;
+}
+p4
+{
+  position: absolute;
+  font-size: 25px;
+  margin-top: 80%;
+}
+#draggable {
+	cursor: move;
+  margin-top: -10%;
+  margin-left: 5%;
+}
+
+
+
+
+
+
+.darkostrov-fade {
+	display: none;
+}
+.darkostrov-fade:before {
+	content: '';
+	background: #000;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	z-index: 9999;
+}
+.darkostrov {
+	position: fixed;
+  /* display: none; */
+	top: 7%;
+  left: 18%;
+	padding: 5%;
+	width: 80%;
+  height: 70%;
+	margin-left: -13%;
+	background: black;
+  opacity: 85%;
+	border-radius: 4px;
+	z-index: 99999;
+
+}
+.darkostrov-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+p5, p10
+{
+ /* top: 20%; */
+color: white;
+font-size: 25px;
+font-family: "Alice Regular";
+}
+
+
+
+p2
+{
+  text-align: center;
+  margin-left: 2%;
+}
+.text1, .text2, .text4
+{
+  margin: 15%;
+  /* display: none; */
+}
+
+p6
+{
+
+color: white;
+font-size: 35px;
+font-family: "Alice Regular";
+}
+
+.button
+{
+background-color: white;
+width: 35%;
+height: 15%;
+font-size: 40px;
+font-family: "Alice Regular";
+top: 73%;
+position: absolute;
+padding: 0%;
+left: 33%;
+display: block;
+}
+
+.text123{
+  position: absolute;
+  top:30%;
+  left:23%;
+  text-align: center;
+  /* margin: 1%; */
+}
+.ostrovtima
+{
+text-align: center;
+}
+
+.hide
+{
+display: none;
+}
+
+#button, #button3, .button4
+{
+  width: 30%;
+  height: 15%;
+  font-size: 35px;
+  font-family: "Alice Regular";
+  top: 70%;
+  left: 35%;
+  position: absolute;
+}
+
+.candle
+{
+  position: fixed;
+  z-index: 9999;
+  visibility: hidden;
+  text-align: center;
+  left: 45%;
+  top: 34%;
+}
+
+.appear{
+visibility: visible;
+}
+
+p7
+{
+  color: white;
+  font-size: 25px;
+  font-family: "Alice Regular";
+  visibility: hidden;
+}
+
+.button2{
+  width: 30%;
+  height: 15%;
+  font-size: 35px;
+  font-family: "Alice Regular";
+  top: 70%;
+  left: 35%;
+  position: absolute;
+  display: none;
+}
+
+
+
+.mountains
+{
+  /* left: 40%; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  z-index: -100;
+}
+#ministerstvo
+{
+  display: block;
+}
+/*.canyon
+{
+  position: absolute;
+  margin-top: -5.2%;
+  margin-left: 20%;
+}
+
+.dark
+{
+  position: absolute;
+  margin-top: -200%;
+  margin-left: 45%;
+  text-align: center;
+} */
+
+
+.popup-fade {
+	display: none;
+}
+.popup-fade:before {
+	content: '';
+	background: #000;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	z-index: 9999;
+}
+.popup {
+	position: fixed;
+  top: 7%;
+  left: 20%;
+	padding: 5%;
+	width: 80%;
+  height: 70%;
+	margin-left: -200px;
+	background: black;
+	border-radius: 4px;
+	z-index: 99999;
+	opacity: 1;
+  background-image: url(images/bat.svg);
+}
+.popup-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+  z-index: 100000;
+}
+
+
+#shades
+{
+text-align: center;
+color: white;
+font-size: 35px;
+font-family: "Alice Regular";
+
+/* z-index: 10000; */
+}
+
+.text3
+{
+  margin: 15%;
+
+}
+
+
+/* #button3
+{
+  display: block;
+} */
+p10
+{
+  display: block;
+}
+
+
+.bat
+{
+  z-index: 10000;
+  position: absolute;
+}
+.wingleft
+{
+  z-index: 10000;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+.wingright
+{
+  z-index: 10000;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.sun
+{
+  position: absolute;
+  z-index: -9999;
+  display: none;
+  text-align: center;
+  left: 25%;
+  top: 10%;
+}
+
+/* .appear2{
+display: block;
+position: absolute;
+} */
+
+.appear1{
+display: block;
+position: absolute;
+}
+
+.canyon
+{
+top: 250%;
+left: 20%;
+position: absolute;
+}
+
+p12
+{
+
+visibility: hidden;
+  color: white;
+  font-size: 25px;
+  font-family: "Alice Regular";
+
+}
+
+
+/* .sunleft
+{
+  display: none;
+} */
+
+#sunright
+{
+
+position: absolute;
+top:0%;
+right: 0%;
+}
+
+#sunleft
+{
+
+position: absolute;
+bottom:0%;
+left: 0%;
+}
+
+
+.fadeforest
+{
+  left: 5%;
+  top: 270%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.Os-Alta
+{
+  left: 54%;
+  top: 250%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+.Pemberli
+{
+  left: 3%;
+  top: 305%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+
+}
+.Sherwood
+{
+  right: 10%;
+  top: 305%;
+  z-index: 9999;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.tree
+{
+  right: 30%;
+  top: 330%;
+  position: absolute;
+  z-index: 9999;
+}
+.Westmountains
+{
+  right: 6%;
+  top: 344%;
+  position: absolute;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+}
+.yellowbrick
+{
+
+  top: 407%;
+  position: absolute;
+  z-index: -1;
+  left: 3%;
+}
+.Ketterdam
+{
+  left: 6%;
+  top: 365%;
+  position: absolute;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+}
+.Hogsmeade
+{
+  left: 25%;
+  top: 410%;
+  position: absolute;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Minor
+{
+  left: 65%;
+  top: 425%;
+  position: absolute;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.flashlight
+{
+  left: 93%;
+  top: 445%;
+  position: absolute;
+  z-index: 9999;
+  }
+
+  .forbiddenWoods
+  {
+    left: 45%;
+    top: 470%;
+    position: absolute;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .watergardens
+  {
+    left: 3%;
+    top: 445%;
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Maryino
+  {
+    left: 50%;
+    top: 515%;
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .WarPeace
+  {
+    left: 10%;
+    top: 525%;
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sea
+  {
+    right: -4%;
+    top: 580%;
+    position: absolute;
+    z-index: 0;
+    padding: 0%;
+
+  }
+
+.smoke
+{
+  position: absolute;
+  z-index: 1;
+  top: 15%;
+  left: 45%;
+}
+
+.kraken
+{
+  position: absolute;
+  z-index: 99999;
+  top: 29%;
+  left: 35%;
+}
+
+
+
+p13
+{font-size: 25px;
+font-family: "Alice Regular";
+color: #384F2D;
+margin: 3%;}
+
+
+
+
+
+
+
+.popup-fade1 {
+	display: none;
+}
+.popup-fade1:before {
+	content: '';
+	background: #000;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	z-index: 9999;
+}
+.popup1 {
+	position: fixed;
+  top: 7%;
+  left: 20%;
+	padding: 5%;
+	width: 80%;
+  height: 70%;
+	margin-left: -200px;
+	background: #fff;
+	border: 1px solid orange;
+	border-radius: 4px;
+	z-index: 999999;
+	opacity: 1;
+}
+.popup-close1 {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
